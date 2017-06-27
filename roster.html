@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title></title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- bootstrap-progressbar -->
+    <link href="../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.css" rel="stylesheet">
+
+</head>
+
+<body class="nav-sm">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="clearfix"></div>
+
+                    <!-- menu profile quick info -->
+                    <div class="profile clearfix">
+                        <div class="profile_pic">
+                            <img src="images/user.png" alt="..." class="img-circle profile_img">
+                        </div>
+                        <div class="profile_info">
+                            <span>Welcome,</span>
+                            <h2>Player</h2>
+                        </div>
+                    </div>
+                    <!-- /menu profile quick info -->
+
+                    <br/>
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <ul class="nav side-menu">
+                            <li>
+                                <a href="#"><img src="images/ss_logo.png"></a>
+                            </li>
+                        </ul>
+
+                        <div class="menu_section">
+                            <h3>General</h3>
+                            <ul class="nav side-menu">
+                                <li><a href="index.html"><i class="fa fa-user"></i> Individual </a>
+                                </li>
+                                <li><a href="roster.html"><i class="fa fa-users"></i> Roster </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /sidebar menu -->
+
+                    <!-- /menu footer buttons -->
+                    <div class="sidebar-footer hidden-small">
+                        <a data-toggle="tooltip" data-placement="top" title="Settings">
+                            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                            <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Lock">
+                            <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <!-- /menu footer buttons -->
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <nav>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="images/img.jpg" alt="">John Doe
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                    <li><a href="javascript:;"> Profile</a></li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="badge bg-red pull-right">50%</span>
+                                            <span>Settings</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="javascript:;">Help</a></li>
+                                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                                </ul>
+                            </li>
+
+                            <li role="presentation" class="dropdown">
+                                <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <span class="badge bg-green">6</span>
+                                </a>
+                                <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                                    <li>
+                                        <a>
+                                            <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                            <span>
+                          <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                            <span>
+                          <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                            <span>
+                          <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                            <span>
+                          <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div class="text-center">
+                                            <a>
+                                                <strong>See All Alerts</strong>
+                                                <i class="fa fa-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- /top navigation -->
+
+            <!-- page content -->
+            <div class="right_col" role="main">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div>
+                            <div class="row x_title">
+                                <div class="col-md-12">
+                                    <h1>Roster Profile</h1>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <br />
+
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="x_panel tile fixed_height_300">
+                            <div class="x_title">
+                                <h2>Personal - Age</h2>
+                                <ul class="nav navbar-right panel_toolbox">
+                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+                                <div id="container1" style="min-width: 310px; height: 280px; margin: 0 auto"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="x_panel tile fixed_height_300 overflow_hidden">
+                            <div class="x_title">
+                                <h2>Personal - Children</h2>
+                                <ul class="nav navbar-right panel_toolbox">
+                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+                                <div id="container2" style="min-width: 310px; height: 280px; margin: 0 auto"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="x_panel tile fixed_height_300">
+                            <div class="x_title">
+                                <h2>Personal - Marital Status</h2>
+                                <ul class="nav navbar-right panel_toolbox">
+                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+
+                                <div id="container3" style="min-width: 310px; height: 280px; max-width: 650px; margin: 0 auto"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="row">
+                
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="x_panel tile fixed_height_300 overflow_hidden">
+                        <div class="x_title">
+                            <h2>Childhood - Caretaker</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
+                            <div id="container4" style="min-width: 410px; max-width: 300px; height: 270px; margin: 0 auto"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="x_panel tile fixed_height_300">
+                        <div class="x_title">
+                            <h2>Childhood - Area</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
+                            <div id="container5" style="min-width: 410px; max-width: 300px; height: 280px; margin: 0 auto"></div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="x_panel tile fixed_height_300 overflow_hidden">
+                        <div class="x_title">
+                            <h2>Childhood - Family Income</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
+                            <div id="container6" style="min-width: 410px; max-width: 350px; height: 280px; margin: 0 auto"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               
+               <div class="row"> 
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="x_panel tile fixed_height_320">
+                        <div class="x_title">
+                            <h2>Education - Yes/No</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
+                            <div id="container7" style="min-width: 310px; max-width: 500px; height: 260px; margin: 0 auto"></div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="x_panel tile fixed_height_320 overflow_hidden">
+                        <div class="x_title">
+                            <h2>Education - Importance</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
+                            <div id="container8" style="min-width: 310px; max-width: 800px; height: 260px; margin: 0 auto"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="x_panel tile fixed_height_320">
+                        <div class="x_title">
+                            <h2>Education - Relationship</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
+                            <div id="container9" style="min-width: 310px; max-width: 800px; height: 260px; margin: 0 auto"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+               
+            <div class="row"> 
+                
+                <div class="col-md-6 col-sm-4 col-xs-12">
+                    <div class="x_panel tile fixed_height_320 overflow_hidden">
+                        <div class="x_title">
+                            <h2>Family and Friends - Number Scale</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
+                            <div id="container10" style="min-width: 310px; max-width: 700px; height: 250px; margin: 0 auto"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-4 col-xs-12">
+                    <div class="x_panel tile fixed_height_320">
+                        <div class="x_title">
+                            <h2>Family and Friends - Yes/No</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
+                            <div id="container11" style="min-width: 310px; max-width: 500px; height: 260px; margin: 0 auto"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row"> 
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="x_panel tile fixed_height_320">
+                        <div class="x_title">
+                            <h2>Football Life - Worry After Football</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
+                            <div id="container12" style="min-width: 310px; max-width: 500px; height: 260px; margin: 0 auto"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="x_panel tile fixed_height_320 overflow_hidden">
+                        <div class="x_title">
+                            <h2>Football Life - Managing While Playing</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
+                            <div id="container13" style="min-width: 310px; max-width: 500px; height: 260px; margin: 0 auto"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="x_panel tile fixed_height_320 overflow_hidden">
+                        <div class="x_title">
+                            <h2>Football Life - Workshops</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
+                            <div id="container14" style="min-width: 310px; max-width: 700px; height: 250px; margin: 0 auto"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- /page content -->
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- iCheck -->
+    <script src="../vendors/iCheck/icheck.min.js"></script>
+    <!-- Flot -->
+    <script src="../vendors/Flot/jquery.flot.js"></script>
+    <script src="../vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="../vendors/Flot/jquery.flot.time.js"></script>
+    <script src="../vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="../vendors/Flot/jquery.flot.resize.js"></script>
+    <!-- Flot plugins -->
+    <script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="../vendors/flot.curvedlines/curvedLines.js"></script>
+    <!-- HighCharts -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/funnel.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+
+
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.js"></script>
+    <script src="js/roster.js"></script>
+
+</body>
+
+</html>
